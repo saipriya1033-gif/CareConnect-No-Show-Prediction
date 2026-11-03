@@ -1,0 +1,32 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secret credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Private datasets and local databases
+data/
+datasets/
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+*.pkl
